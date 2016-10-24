@@ -1,0 +1,24 @@
+Subjects
+---------
+Sensor
+Drive(drive logic, get info from sensors and calculate actuator numbers)
+DriveSettings(settings for drive logic :)
+Actuators (manages speed and steering)
+Encoder(provides distance and speed)
+Imu (provides direction)
+Odometr (provide 2D position by using Encoder and Imu)
+Localization (detect position on the track)
+
+Subjects provide shared functionality
+---------------------------------------
+Log (logging some information)
+Link(communicates, sends/recives information to/from host)
+
+Modules (parallel execution)
+-----------------------------
+Sensor
+DriveLogic
+Actuators
+Odometr
+Localization
+Link
